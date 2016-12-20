@@ -1,13 +1,17 @@
 {
   "name": "splashify-site",
   "private": true,
-  "dependencies": {
-    "normalize.css": "^5.0.0"
+  "scripts": {
+    "dev": "gulp copy && gulp watch",
+    "build": "gulp copy && gulp"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.1",
     "gulp-clean-css": "^2.3.2",
     "gulp-concat": "^2.6.1"
+  },
+  "dependencies": {
+    "normalize.css": "^5.0.0"
   }
 }
