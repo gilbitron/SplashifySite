@@ -51,6 +51,15 @@ a:hover, a:focus {
 	margin: 0 auto 80px;
 }
 
+.preview {
+	max-width: 800px;
+	margin: 0 auto 80px;
+}
+.preview img {
+	max-width: 100%;
+	height: auto;
+}
+
 .download {
 	font-size: 18px;
 	line-height: 1.5em;
